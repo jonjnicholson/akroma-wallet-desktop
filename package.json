@@ -37,6 +37,7 @@
   "dependencies": {
     "adm-zip": "^0.4.9",
     "ngx-bootstrap": "^2.0.5",
+    "pouchdb-browser": "^6.4.3",
     "request": "^2.85.0",
     "web3": "^1.0.0-beta.34"
   },
@@ -58,6 +59,7 @@
     "@types/jasmine": "2.8.6",
     "@types/jasminewd2": "2.0.3",
     "@types/node": "7.0.7",
+    "@types/pouchdb-browser": "^6.1.2",
     "codelyzer": "4.2.1",
     "core-js": "2.5.5",
     "cross-env": "5.1.4",

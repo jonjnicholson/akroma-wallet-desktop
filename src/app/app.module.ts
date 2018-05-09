@@ -24,6 +24,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SplashComponent } from './components/splash/splash.component';
 import { Web3Service } from './providers/web3.service';
+import { TransactionsPersistenceService } from './providers/transactions-persistence.service';
+import { TransactionsService } from './providers/transactions.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -55,6 +57,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   providers: [
     ElectronService,
     Web3Service,
+    TransactionsService,
+    TransactionsPersistenceService,
   ],
   bootstrap: [AppComponent]
 })
