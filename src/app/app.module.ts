@@ -4,6 +4,7 @@ import '../polyfills';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { RouterModule } from '@angular/router';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
@@ -37,6 +38,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     SplashComponent,
   ],
   imports: [
+    RouterModule,
     BrowserModule,
     FormsModule,
     HttpClientModule,
