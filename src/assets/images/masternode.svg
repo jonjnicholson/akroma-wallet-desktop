@@ -1,0 +1,76 @@
+<svg width="61" height="56" viewBox="0 0 61 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>masternode</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1431 -88)">
+<g id="icon/masternode">
+<g id="Stroke 1">
+<use xlink:href="#path0_stroke" transform="translate(1432 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 3">
+<use xlink:href="#path1_stroke" transform="translate(1476.98 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 5">
+<use xlink:href="#path2_stroke" transform="translate(1466.45 105.225)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 7">
+<use xlink:href="#path2_stroke" transform="translate(1432 105.225)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 9">
+<use xlink:href="#path3_stroke" transform="translate(1472.19 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 11">
+<use xlink:href="#path4_stroke" transform="translate(1461.67 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 13">
+<use xlink:href="#path5_stroke" transform="translate(1451.14 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 15">
+<use xlink:href="#path4_stroke" transform="translate(1440.61 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 17">
+<use xlink:href="#path6_stroke" transform="translate(1451.14 105.225)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 19">
+<use xlink:href="#path7_stroke" transform="translate(1461.67 105.225)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 21">
+<use xlink:href="#path8_stroke" transform="translate(1472.19 88)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 23">
+<use xlink:href="#path9_stroke" transform="translate(1469.32 90.8708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 26">
+<use xlink:href="#path10_stroke" transform="translate(1461.67 102.354)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 27">
+<use xlink:href="#path11_stroke" transform="translate(1458.79 105.225)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 28">
+<use xlink:href="#path10_stroke" transform="translate(1441.57 125.321)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 29">
+<use xlink:href="#path11_stroke" transform="translate(1438.7 128.191)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 30">
+<use xlink:href="#path10_stroke" transform="translate(1479.85 116.708)" fill="#FFFFFF"/>
+</g>
+<g id="Stroke 31">
+<use xlink:href="#path9_stroke" transform="translate(1476.98 119.579)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 29.6651 51.6746L 29.2737 51.9858C 29.3683 52.1049 29.5121 52.1744 29.6643 52.1746C 29.8165 52.1749 29.9604 52.1058 30.0555 51.987L 29.6651 51.6746ZM 0 14.3541L -0.428746 14.0968C -0.535979 14.2755 -0.521101 14.502 -0.391412 14.6652L 0 14.3541ZM 8.61244 0L 8.61244 -0.5C 8.43681 -0.5 8.27405 -0.407851 8.18369 -0.257248L 8.61244 0ZM 44.5856 32.2235L 29.2746 51.3623L 30.0555 51.987L 45.3665 32.8482L 44.5856 32.2235ZM 30.0565 51.3635L 0.391412 14.0429L -0.391412 14.6652L 29.2737 51.9858L 30.0565 51.3635ZM 0.428746 14.6113L 9.04119 0.257248L 8.18369 -0.257248L -0.428746 14.0968L 0.428746 14.6113ZM 8.61244 0.5L 35.4067 0.5L 35.4067 -0.5L 8.61244 -0.5L 8.61244 0.5Z"/>
+<path id="path1_stroke" d="M 5.74163 0L 6.17037 -0.257248C 6.08001 -0.407851 5.91726 -0.5 5.74163 -0.5L 5.74163 0ZM 14.3541 14.3541L 14.741 14.6707C 14.8747 14.5074 14.8914 14.2778 14.7828 14.0968L 14.3541 14.3541ZM 0 0.5L 5.74163 0.5L 5.74163 -0.5L 0 -0.5L 0 0.5ZM 5.31288 0.257248L 13.9253 14.6113L 14.7828 14.0968L 6.17037 -0.257248L 5.31288 0.257248ZM 13.9671 14.0374L 5.35465 24.5638L 6.12861 25.197L 14.741 14.6707L 13.9671 14.0374Z"/>
+<path id="path2_stroke" d="M 0 0.5L 24.8804 0.5L 24.8804 -0.5L 0 -0.5L 0 0.5Z"/>
+<path id="path3_stroke" d="M 10.1231 -0.295682L -0.403202 14.0584L 0.403202 14.6497L 10.9295 0.295682L 10.1231 -0.295682Z"/>
+<path id="path4_stroke" d="M -0.403203 0.295682L 10.1231 14.6497L 10.9295 14.0584L 0.403203 -0.295682L -0.403203 0.295682Z"/>
+<path id="path5_stroke" d="M 10.1231 -0.295682L -0.403203 14.0584L 0.403203 14.6497L 10.9295 0.295682L 10.1231 -0.295682Z"/>
+<path id="path6_stroke" d="M -0.481225 0.13573L 10.0451 37.4563L 11.0075 37.1848L 0.481225 -0.13573L -0.481225 0.13573Z"/>
+<path id="path7_stroke" d="M 10.0451 -0.13573L -0.481225 37.1848L 0.481225 37.4563L 11.0075 0.13573L 10.0451 -0.13573Z"/>
+<path id="path8_stroke" d="M -0.5 0L -0.5 5.74163L 0.5 5.74163L 0.5 0L -0.5 0Z"/>
+<path id="path9_stroke" d="M 0 0.5L 5.74163 0.5L 5.74163 -0.5L 0 -0.5L 0 0.5Z"/>
+<path id="path10_stroke" d="M -0.5 0L -0.5 5.74163L 0.5 5.74163L 0.5 0L -0.5 0Z"/>
+<path id="path11_stroke" d="M 0 0.5L 5.74163 0.5L 5.74163 -0.5L 0 -0.5L 0 0.5Z"/>
+</defs>
+</svg>

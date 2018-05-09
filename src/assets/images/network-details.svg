@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 272">
+  <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-width="2" transform="translate(1 1)">
+    <circle cx="135.5" cy="21.5" r="21.5"/>
+    <circle cx="217.5" cy="52.5" r="21.5"/>
+    <circle cx="248.5" cy="135.5" r="21.5"/>
+    <circle cx="217.5" cy="217.5" r="21.5"/>
+    <circle cx="52.5" cy="52.5" r="21.5"/>
+    <circle cx="21.5" cy="135.5" r="21.5"/>
+    <circle cx="52.5" cy="217.5" r="21.5"/>
+    <circle cx="135.5" cy="248.5" r="21.5"/>
+    <path stroke-linecap="round" stroke-linejoin="round" d="M218.4423 218.4423L22 135.5l196.4423-82.9423L135.5 249 52.5577 52.5577 249 135.5 52.5577 218.4423 135.5 22z"/>
+    <path stroke-linejoin="round" d="M123 118h9m7 0h9m-1 17h9m-25 0h9m-26 0h9m16 17h9m-25 0h9"/>
+  </g>
+</svg>

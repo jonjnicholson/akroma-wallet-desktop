@@ -7,6 +7,8 @@ import { FormsModule } from '@angular/forms';
 
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 
+import { ProgressbarModule } from 'ngx-bootstrap';
+
 import { AppRoutingModule } from './app-routing.module';
 
 // NG Translate
@@ -19,6 +21,8 @@ import { WebviewDirective } from './directives/webview.directive';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
+import { SplashComponent } from './components/splash/splash.component';
+import { Web3Service } from './providers/web3.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -29,7 +33,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     HomeComponent,
-    WebviewDirective
+    WebviewDirective,
+    SplashComponent,
   ],
   imports: [
     BrowserModule,
@@ -42,9 +47,13 @@ export function HttpLoaderFactory(http: HttpClient) {
         useFactory: (HttpLoaderFactory),
         deps: [HttpClient]
       }
-    })
+    }),
+    ProgressbarModule.forRoot(),
   ],
-  providers: [ElectronService],
+  providers: [
+    ElectronService,
+    Web3Service,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,18 @@
+<div class="container">
+  <h1 class="title">
+    Preparing the Akroma Desktop Wallet.
+    <ng-container *ngIf="isListening$ | async as listening">
+      <ng-container *ngIf="listening && isSyncing$ | async as syncing">
+        <div class="mb-2">
+          <progressbar class="progress-striped active" [value]="currentPercentage(syncing.currentBlock, syncing.highestBlock)" type="danger">
+            <i>{{ currentPercentage(syncing.currentBlock, syncing.highestBlock).toFixed(0) }}&#37;</i>
+          </progressbar>
+        </div>
+        <h3 class="title">{{ currentPercentage(syncing.currentBlock, syncing.highestBlock).toFixed(0) }}&#37;</h3>
+      </ng-container>
+      <ng-container *ngIf="peerCount$ | async as peerCount">
+        <h3 class="title">{{ hexToInt(peerCount) }} Peers Connected.</h3>
+      </ng-container>
+    </ng-container>
+  </h1>
+</div>

@@ -1,0 +1,28 @@
+<svg viewBox="0 0 223 223" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(1 1)" stroke="#FFF" stroke-width="2" fill="none" fill-rule="evenodd">
+    <path d="M153 203l-32 7M210 121l-7 29M110 171v29"/>
+    <circle cx="110.5" cy="110.5" r="10.5"/>
+    <circle cx="110.5" cy="60.5" r="10.5"/>
+    <circle cx="110.5" cy="10.5" r="10.5"/>
+    <circle cx="110.5" cy="160.5" r="10.5"/>
+    <circle cx="110.5" cy="210.5" r="10.5"/>
+    <circle cx="63.5" cy="81.5" r="10.5"/>
+    <circle cx="156.5" cy="81.5" r="10.5"/>
+    <circle cx="199.5" cy="160.5" r="10.5"/>
+    <circle cx="163.5" cy="199.5" r="10.5"/>
+    <circle cx="63.5" cy="138.5" r="10.5"/>
+    <circle cx="156.5" cy="138.5" r="10.5"/>
+    <path d="M71 50h7M71 171h7M143 171h7M39 110h7M143 50h7M175 110h7M171 193l21-25M153 18l-32-7M210 100l-7-29"/>
+    <circle cx="199.5" cy="60.5" r="10.5"/>
+    <circle cx="163.5" cy="21.5" r="10.5"/>
+    <circle cx="210.5" cy="110.5" r="10.5"/>
+    <path d="M171 29l21 25M68 203l32 7M11 121l7 29"/>
+    <circle cx="21.5" cy="160.5" r="10.5"/>
+    <circle cx="56.5" cy="199.5" r="10.5"/>
+    <path d="M50 193l-21-25M68 18l32-7M11 100l7-29"/>
+    <circle cx="21.5" cy="60.5" r="10.5"/>
+    <circle cx="56.5" cy="21.5" r="10.5"/>
+    <circle cx="10.5" cy="110.5" r="10.5"/>
+    <path d="M50 29L29 54M100 160l-25-14M64 129V93M75 89l25 18M121 107l25-18M110 50V21M121 64l25 11M121 160l25-14M168 146l21 11M53 146l-21 11M157 93v36M53 79L32 68"/>
+  </g>
+</svg>

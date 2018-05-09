@@ -56,7 +56,6 @@ try {
   // initialization and is ready to create browser windows.
   // Some APIs can only be used after this event occurs.
   app.on('ready', () => {
-    createWindow();
     if (clientControl.clientRunning() === false) {
       const startClient = clientControl.startClient;
       if (download.akromaClientExists() === false) {
@@ -88,6 +87,7 @@ try {
         });
       }
     }
+    createWindow();
   });
 
   // Quit when all windows are closed.
