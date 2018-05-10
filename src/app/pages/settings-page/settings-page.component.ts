@@ -1,5 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+
+import { SettingsPersistenceService } from '../../providers/settings-persistence.service';
 
 @Component({
   selector: 'app-settings-page',
@@ -7,19 +9,31 @@ import { FormBuilder, FormGroup } from '@angular/forms';
   styleUrls: ['./settings-page.component.scss']
 })
 export class SettingsPageComponent implements OnInit {
-  userSettingsForm: FormGroup;
+  @ViewChild('fileInput')
+  private fileInput: ElementRef;
+  systemSettingsForm: FormGroup;
 
-  constructor(fb: FormBuilder) {
-    this.userSettingsForm = fb.group({
+  constructor(private settingsService: SettingsPersistenceService, private fb: FormBuilder) {
+    this.systemSettingsForm = this.fb.group({
       dataDirPath: '',
       syncMode: '',
+      _id: 'system',
     });
   }
 
-  ngOnInit() {
+  async ngOnInit() {
+    const settings = await this.settingsService.db.get('system');
+    if (!!settings) {
+      this.systemSettingsForm = this.fb.group(settings);
+    }
   }
 
-  onDirectoryPathChange(event: Event): void {
-    this.userSettingsForm.get('dataDirPath').setValue(event.srcElement['files'][0].path);
+  onDirectoryPathChange(event: any) {
+    this.systemSettingsForm.get('dataDirPath').setValue(event.srcElement.files["0"].path);
+  }
+
+  async onSubmit() {
+    const result = await this.settingsService.db.put(this.systemSettingsForm.value);
+    console.log(result);
   }
 }

@@ -27,6 +27,7 @@ import { Web3Service } from './providers/web3.service';
 import { TransactionsPersistenceService } from './providers/transactions-persistence.service';
 import { TransactionsService } from './providers/transactions.service';
 import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
+import { SettingsPersistenceService } from './providers/settings-persistence.service';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -62,6 +63,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     Web3Service,
     TransactionsService,
     TransactionsPersistenceService,
+    SettingsPersistenceService,
   ],
   bootstrap: [AppComponent]
 })
