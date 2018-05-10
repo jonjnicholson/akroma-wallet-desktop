@@ -34,6 +34,6 @@ export class SettingsPageComponent implements OnInit {
 
   async onSubmit() {
     const result = await this.settingsService.db.put(this.systemSettingsForm.value);
-    console.log(result);
+    this.systemSettingsForm = this.fb.group(await this.settingsService.db.get('system'));
   }
 }
