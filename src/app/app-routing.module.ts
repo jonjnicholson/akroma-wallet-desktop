@@ -1,12 +1,14 @@
 import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SplashComponent } from './components/splash/splash.component';
+// import { SplashComponent } from './components/splash/splash.component';
+import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
 
 const routes: Routes = [
     {
         path: '',
-        component: SplashComponent,
+        component: SettingsPageComponent,
+        // component: SplashComponent,
     }
 ];
 

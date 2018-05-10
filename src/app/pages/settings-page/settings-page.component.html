@@ -1,3 +1,33 @@
-<p>
-  settings-page works!
-</p>
+<div class="container">
+  <form id="settings-form" [formGroup]="userSettingsForm">
+    <div class="row">
+      <div class="col-6">
+        <div class="form-group">
+          <label for="data-directory-path">Data Directory Location</label>
+          <input type="file" class="form-control-file form-control" id="data-directory-path" formControlName="dataDirPath" (change)="onDirectoryPathChange($event)" webkitdirectory directory multiple>
+        </div>
+      </div>
+      <div class="col-6">
+        <h3>Blockchain Sync Mode</h3>
+        <div class="form-check">
+          <input class="form-check-input form-control" type="radio" name="syncMode" id="light-sync" formControlName="syncMode" value="light" checked>
+          <label class="form-check-label" for="exampleRadios1">
+            Light
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input form-control" type="radio" name="syncMode" id="fast-sync" formControlName="syncMode" value="fast">
+          <label class="form-check-label" for="exampleRadios2">
+            Fast
+          </label>
+        </div>
+        <div class="form-check disabled">
+          <input class="form-check-input form-control" type="radio" name="syncMode" id="full-sync" formControlName="syncMode" value="full" disabled>
+          <label class="form-check-label" for="exampleRadios3">
+            Full
+          </label>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
