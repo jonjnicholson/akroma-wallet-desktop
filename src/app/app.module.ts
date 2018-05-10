@@ -26,6 +26,7 @@ import { SplashComponent } from './components/splash/splash.component';
 import { Web3Service } from './providers/web3.service';
 import { TransactionsPersistenceService } from './providers/transactions-persistence.service';
 import { TransactionsService } from './providers/transactions.service';
+import { SettingsPageComponent } from './pages/settings-page/settings-page.component';
 
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: HttpClient) {
@@ -38,6 +39,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     HomeComponent,
     WebviewDirective,
     SplashComponent,
+    SettingsPageComponent,
   ],
   imports: [
     RouterModule,
